@@ -1003,6 +1003,8 @@ letter-spacing: 0.02em;
     border: none;
     background-color: #ffffff;
     margin-left: 60px;
+    align-items: center;
+    justify-content: center;
 }
 
 .modal{
