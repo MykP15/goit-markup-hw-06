@@ -1128,3 +1128,9 @@ letter-spacing: 0.02em;
     top: 38%;
 }
 }
+
+@media (min-resolution: 192dpi) {
+    .section-one {
+        background-image: url(../images/h-people-office@2x.jpg);
+    }
+}
