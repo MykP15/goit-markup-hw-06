@@ -814,9 +814,19 @@ align-items: baseline;
     display: none;
 }
 
+.section-one{
+    padding: 72px 0;
+}
+
+.main-title{
+    font-size: 36px;
+    max-width: 216px;
+}
+
 .four-text{
 flex-direction: column;
 align-items: center;
+gap: 72px;
 }
 
 .text-list{
@@ -835,6 +845,7 @@ align-items: center;
 
 .our-team{
     flex-direction: column;
+    gap: 72px;
 }
 
 .team-container{
@@ -881,8 +892,8 @@ align-items: center;
 }
 
 .media-logos{
-    margin-left: 56px;
-    margin-right: 56px;
+    gap: 16px;
+    margin: 16px 56px 0 56px;
 }
 
 .sub-title{
@@ -979,11 +990,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
-.media-logos{
-    gap: 40px;
-    margin: 48px 0 0 0;
-}
-
 .studio-nav{
     display: none;
 }
@@ -1043,6 +1049,16 @@ letter-spacing: 0.02em;
 .priv-policy{
     margin-left: 23px;
 }
+
+.contacts-info-mob.mobilka{
+    color: #4d5ae5;
+}
+
+.media-logos-mobile{
+    display: flex;
+    gap: 40px;
+    margin-top: 48px;
+}
 }
 
 
@@ -1092,6 +1108,8 @@ letter-spacing: 0.02em;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    column-gap: 24px;
+    row-gap: 64px;
 }
 
 .wrap-list-item{
@@ -1114,6 +1132,7 @@ letter-spacing: 0.02em;
 
 .footer-div{
     flex-wrap: wrap;
+    row-gap: 72px;
 }
 
 .footer-text{
@@ -1127,10 +1146,14 @@ letter-spacing: 0.02em;
 .modal{
     top: 38%;
 }
+
+.section-one{
+    padding: 112px 0;
+}
 }
 
 @media (min-resolution: 192dpi) {
     .section-one {
-        background-image: url(../images/h-people-office@2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/h-people-office-min.jpg);
     }
 }
